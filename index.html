@@ -80,19 +80,53 @@
         opacity: 0.6;
       }
 
+      .socials {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1 0;
+        align-items: center;
+        align-content: space-around;
+      }
+
+      .socials img {
+        padding: 20px;
+        width: 40px;
+      }
+      @media only screen and (max-width: 600px) {
+        .socials img {
+          padding: 10px;
+          width: 25px;
+        }
+      }
+
+
+
     </style>
   </head>
   <body>
     <div class="main">
       <div class="centre">
         <img class="main-img" src="Assets/main1.png">
-        <ul>
-          <li><a href="https://open.spotify.com/artist/6geA8LJnRogXPuq2gbsPjk?si=1LeYqECfQL2RzJzMuKHcZA">Spotify</a></li>
-          <li><a href="https://itunes.apple.com/ca/artist/nmbr-iv/1439464049">Apple</a></li>
-          <li><a href="#">YouTube</a></li>
-          <li><a href="https://instagram.com/nmbr.iv?utm_source=ig_profile_share&igshid=17wn42ulv2z9r">Instagram</a></li>
-          <li><a href="https://mobile.twitter.com/NmbrIv">Twitter</a></li>
-        </ul>
+        <div class="socials">
+          <a href="https://open.spotify.com/artist/6geA8LJnRogXPuq2gbsPjk?si=1LeYqECfQL2RzJzMuKHcZA">
+            <img src="Assets/spotify.png" alt="spotify">
+          </a>
+          <a href="https://itunes.apple.com/ca/artist/nmbr-iv/1439464049">
+            <img src="Assets/apple.png" alt="apple">
+          </a>
+          <a href="https://www.youtube.com/channel/UCq2vWZovs_vNe1gRDUaQDhA">
+            <img src="Assets/youtube.png" alt="youtube">
+          </a>
+          <a href="https://instagram.com/nmbr.iv?utm_source=ig_profile_share&igshid=17wn42ulv2z9r">
+            <img src="Assets/instagram.png" alt="instagram">
+          </a>
+          <a href="https://mobile.twitter.com/NmbrIv">
+            <img src="Assets/twitter.png" alt="twitter">
+          </a>
+        </div>
       </div>
     </div>
   </body>
